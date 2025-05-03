@@ -1,6 +1,6 @@
 // Function to fetch the current day's entry
 function loadEntry() {
-  fetch('https://raw.githubusercontent.com/yourusername/dear-jack/main/posts.json')
+  fetch('https://raw.githubusercontent.com/shey-dey/dear-jack/main/posts.json')
     .then(response => response.json())
     .then(data => {
       const entryDate = new Date().toISOString().split('T')[0];
